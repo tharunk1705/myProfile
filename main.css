@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+body{
+    background-color: #eeeeee;
+}
+
+.myNav{
+    background-color: #32e0c4;
+    color: #222831;
+
+}
+.myNav>a{
+    font-family: 'Staatliches', cursive;
+}
+.myNav>div>ul>li{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.myNav>div>ul>li:hover{
+    border-radius: 20px 20px 20px 20px;
+    background-color: #eeeeee;
+}
+.mainContainer{
+    position: relative;
+    margin-top: 50px;
+}
+.innerContainer{
+    position: relative;
+    margin-top: 50px;
+}
+.profile-pic{
+    display: grid;
+    place-items: center;
+    position: relative;
+    border-radius: 100%;
+    top:30px;
+    box-shadow: 5px 4px 10px 5px grey;
+}
+.content{
+    text-align: center;
+}
+.projects{
+    display: grid;
+    place-items: center;
+}
+.social{
+    display: grid;
+    place-items: center;
+}
+.github{
+    background-color: black;
+}
+.github>a{
+    color: #eeeeee;
+    font-size: large;
+}
+.gmail{
+    background-color: red;
+}
+.gmail>a{
+    color: #eeeeee;
+}
+.twitter{
+    background-color: dodgerblue;
+}
+.twitter>a{
+    color: #eeeeee;
+    font-size: large;
+}
+.linkedin{
+    background-color: #00bcd4;
+}
+.linkedin>a{
+    color: #eeeeee;
+    font-size: large;
+}
+.facebook{
+    background-color: #3282b8;
+}
+.facebook>a{
+    color: #eeeeee;
+    font-size: large;
+}
+.instagram{
+    background-color: deeppink;
+}
+.instagram>a{
+    color: #eeeeee;
+    font-size: large;
+    padding: 2px;
+}
